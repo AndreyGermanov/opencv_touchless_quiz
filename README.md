@@ -1,4 +1,4 @@
-# opencv_webcam_filtering_webapp
+# OpenCV Touchless Quiz
 This is a Web application, that uses OpenCV and MediaPipe to implement a quiz, that you can pass without keyboard
 and mouse. Just show answers to a web camera using fingers and artificial intelligence will do the rest.
 
