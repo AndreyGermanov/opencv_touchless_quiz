@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OpenCV filters for web camera video stream</title>
+    <style>
+        td {
+            padding:30px;
+            vertical-align: top;
+        }
+        input[type=radio] {
+            display:block
+        }
+        button {
+            margin-top:10px;
+            background-color:#0000FF !important;
+            color:white;
+            border-radius:50px;
+            padding:10px;
+            padding-left:40px;
+            padding-right:40px;
+            font-weight:bold;
+        }
+        fieldset > div {
+            display:flex;
+            flex-direction:row;
+            justify-content:flex-start;
+            align-items:flex-start;
+        }
+        div.question {
+            margin-bottom: 10px;
+        }
+        img {
+            width:640px;
+            height:480px;
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+        <h1>OpenCV Touchless Quiz</h1>
+    </div>
+    <table>
+        <tbody>
+        <tr>
+            <td>
+                <img src="./frame.jpg" style="width:640px;height:480px"/><br/><br/>
+                <ul>
+                    <li>Show answer option number using fingers.</li>
+                    <li>Show 0 fingers to submit current answer.</li>
+                </ul>
+            </td>
+            <td>
+                <h2></h2>
+                <div class="question"></div>
+                <form></form>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+opencv-python
+mediapipe
+cvzone
+flask
+waitress
+numpy
