@@ -106,6 +106,7 @@ function timeout(ms) {
 }
 
 // Quiz questions and answers definition
+// Original: https://www.proprofs.com/quiz-school/story.php?title=mtg4nzgynw9dln
 const quiz = [
     {
         question: "What does the import cv2 statement do?",
